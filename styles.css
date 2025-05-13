@@ -83,7 +83,7 @@
 /* 导航栏滚动效果 */
 .nav-scrolled {
     backdrop-filter: blur(10px);
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.95);
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
 }
 
@@ -108,4 +108,18 @@
 
 .btn-hover-effect:hover::before {
     left: 100%;
+}
+
+/* 白色主题设置 */
+body {
+    font-family: 'Noto Sans SC', sans-serif;
+    background-color: #ffffff;
+}
+
+.bg-gray-50 {
+    background-color: #ffffff;
+}
+
+section {
+    background-color: #ffffff;
 } 
